@@ -24,5 +24,9 @@ FOR index = 1 TO length(list) - 1
 END FOR
 ```
 
+###Complexity
+In the worst-case, the outer loop will run n-times, but the inner one will do n-1 for each of those<br>
+Thus leading to a quadratic time complexity. 
+
 ### This is a very common sorting algorithm and can be implemented in pretty much every language.<br>Check out the rest of this folder to see some examples of it at work!
 
