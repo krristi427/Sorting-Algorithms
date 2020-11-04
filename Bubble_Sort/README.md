@@ -21,5 +21,9 @@ FOR i FROM length-2 TO 0 STEP -1 DO
 END FOR 
 ```
 
+###Complexity
+Notice that in the i-th Iteration of the outer loop, the inner loop will have performed n - 1 - i Comparisons. <br> For n iterations, it will perform n * (n - 1 - i) Comparisons, thus leading to quadratic time-complexity.  
+
+
 ### This is a very common sorting algorithm and can be implemented in pretty much every language.<br>Check out the rest of this folder to see some examples of it at work!
 
