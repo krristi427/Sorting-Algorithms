@@ -22,6 +22,10 @@ QUICKSORT(array):
   
   RETURN QUICKSORT(smallersarray) + equalsarray +  QUICKSORT(biggersarray)
 ```
+###Complexity
+With each sorted pivot, one effectively cuts the amount of numbers to sort in half <br>
+and the 2 newly created parts can run in parallel. This will create a tree-like structure, <br> 
+which means the complexity is logarithmic.
 
 ### This is one of the best sorting algorithms and can be implemented in pretty much every language.<br>Check out the rest of this folder to see some examples of it at work!
 
